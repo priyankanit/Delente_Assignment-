@@ -32,8 +32,8 @@ Advanced Animations for Better UX
 <img src="assets/images/userinfo.png" alt="Userinfo Screen" width="300" height="600">
 
 ### Dashboard Screen
-<img src="assets/images/dash.png" alt="Dashboard Screen" width="300" height="600">
 <img src="assets/images/dash2.png" alt="Dashboard Screen" width="300" height="600">
+<img src="assets/images/dash1.png" alt="Dashboard Screen" width="300" height="600">
 
 ### Home Screen
 <img src="assets/images/home.png" alt="Home Screen" width="300" height="600">
@@ -45,10 +45,12 @@ Advanced Animations for Better UX
 <img src="assets/images/checkout.png" alt="Checkout Screen" width="300" height="600">
 
 ### Payment Screen
+<img src="assets/images/razorpay.png" alt="Payment Screen" width="300" height="600">
 <img src="assets/images/payment successfull.png" alt="Payment Screen" width="300" height="600">
 
 ### Setting Screen
 <img src="assets/images/theme2.png" alt="Setting Screen" width="300" height="600">
+<img src="assets/images/theme.png" alt="Setting Screen" width="300" height="600">
 
 
 ## Project Structure
