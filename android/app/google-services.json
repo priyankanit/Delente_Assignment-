@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407781491109",
+    "project_id": "delente-assessment",
+    "storage_bucket": "delente-assessment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407781491109:android:d63399c454994f9fdf684c",
+        "android_client_info": {
+          "package_name": "com.example.delente_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgJbsgDI9XgTrDPP4nhlkWgYtr5B0qmWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
