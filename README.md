@@ -33,7 +33,7 @@ Advanced Animations for Better UX
 
 ### Dashboard Screen
 <img src="assets/images/dash2.png" alt="Dashboard Screen" width="300" height="600">
-<img src="assets/images/dash1.png" alt="Dashboard Screen" width="300" height="600">
+<img src="assets/images/dash.png" alt="Dashboard Screen" width="300" height="600">
 
 ### Home Screen
 <img src="assets/images/home.png" alt="Home Screen" width="300" height="600">
@@ -88,6 +88,7 @@ Android/iOS Emulator or Physical Device
 ## Clone the Repository
 
 git clone https://github.com/your-repo/Delente_Assignment-.git
+
 cd Delente_Assignment
 
 
