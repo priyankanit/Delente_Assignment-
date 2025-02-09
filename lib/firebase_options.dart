@@ -59,4 +59,5 @@ class DefaultFirebaseOptions {
     projectId: 'delente-assessment',
     storageBucket: 'delente-assessment.firebasestorage.app',
   );
+
 }

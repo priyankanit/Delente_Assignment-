@@ -16,11 +16,11 @@ class PaymentController extends GetxController {
 
   void openCheckout() {
     var options = {
-      'key': '', // Replace with your Razorpay key
+      'key': 'razorpay key', // Replace with your Razorpay key
       'amount': 5000, // Amount in paise (e.g., 50000 = ₹500)
-      'name': '',
+      'name': 'company name',
       'description': 'Test Payment',
-      'prefill': {'contact': 'contact No', 'email': 'test@razorpay.com'},
+      'prefill': {'contact': 'contact no', 'email': 'test@razorpay.com'},
       'external': {
         'wallets': ['paytm']
       }

@@ -7,4 +7,5 @@ class RoutesName {
   static const checkoutScreen = '/checkoutScreen';
   static const paymentScreen = '/paymentScreen';
   static const settings = '/settingsScreen';
+  static const notificationScreen = '/notification';
 }

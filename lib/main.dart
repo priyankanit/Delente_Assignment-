@@ -1,6 +1,7 @@
 import 'package:delente_assignment/controllers/theme_controller.dart';
 import 'package:delente_assignment/core/routes/routes.dart';
 import 'package:delente_assignment/core/routes/routes_name.dart';
+import 'package:delente_assignment/core/services/firebase_api.dart';
 import 'package:delente_assignment/core/utils/helpers/app_translations.dart';
 import 'package:delente_assignment/core/utils/helpers/stock_binding.dart';
 import 'package:delente_assignment/firebase_options.dart';
@@ -13,9 +14,12 @@ import 'package:get/get.dart';
 
 import 'controllers/localization_controller.dart';
 
+
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
- await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform); 
+ await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+ await FirebaseApi().initNotifications(); 
 
  Get.put(ThemeController());
  Get.put(LocalizationController());

@@ -12,7 +12,20 @@
           "package_name": "com.example.delente_assignment"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "407781491109-jrk1hunceco9k6lbf4pi1u5dhinkbpn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delente_assignment",
+            "certificate_hash": "0dff142b0c15d8f041a467f7d8db6270553529df"
+          }
+        },
+        {
+          "client_id": "407781491109-487nmu2df4em3lglspgbsabirbihnuh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCgJbsgDI9XgTrDPP4nhlkWgYtr5B0qmWM"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407781491109-487nmu2df4em3lglspgbsabirbihnuh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

@@ -4,6 +4,7 @@ import 'package:delente_assignment/modules/screens/checkout_screen.dart';
 import 'package:delente_assignment/modules/screens/dashboard_screen.dart';
 import 'package:delente_assignment/modules/screens/detail_screen.dart';
 import 'package:delente_assignment/modules/screens/home_screen.dart';
+import 'package:delente_assignment/modules/screens/notification_screen.dart';
 import 'package:delente_assignment/modules/screens/payment_screen.dart';
 import 'package:delente_assignment/modules/screens/settings_screen.dart';
 import 'package:delente_assignment/modules/screens/userinfo_screen.dart';
@@ -56,6 +57,12 @@ class AppRoutes {
     GetPage(
       name: RoutesName.settings,
       page: () => const SettingsScreen(),
+      transition: Transition.rightToLeftWithFade,
+      //transitionDuration: const Duration(milliseconds: 300),
+    ),
+    GetPage(
+      name: RoutesName.settings,
+      page: () => const NotificationScreen(),
       transition: Transition.rightToLeftWithFade,
       //transitionDuration: const Duration(milliseconds: 300),
     ),
