@@ -49,4 +49,6 @@ flutter {
 
 dependencies {
     implementation("com.google.firebase:firebase-messaging:23.4.0")
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+
 }

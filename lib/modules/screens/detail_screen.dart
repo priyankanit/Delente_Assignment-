@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../core/utils/constants/text_constants.dart';
+
 class DetailScreen extends StatelessWidget {
   //final Stock stock;
   const DetailScreen({
@@ -83,25 +85,25 @@ class DetailScreen extends StatelessWidget {
                 runSpacing: 12,
                 spacing: 12,
                 children: [
-                  detailCard("1-Day Return",
+                  detailCard(TextConstants.oneDayReturn,
                       "${stock.oneDayReturn.toStringAsFixed(2)}%"),
-                  detailCard("1-Week Return",
+                  detailCard(TextConstants.oneWeekReturn,
                       "${stock.oneWeekReturn.toStringAsFixed(2)}%"),
-                  detailCard("1-Month Return",
+                  detailCard(TextConstants.oneMonthReturn,
                       "${stock.oneMonthReturn.toStringAsFixed(2)}%"),
-                  detailCard("1-Year Return",
+                  detailCard(TextConstants.oneYearReturn,
                       "${stock.oneYearReturn.toStringAsFixed(2)}%"),
-                  detailCard("Opening Price",
+                  detailCard(TextConstants.openingPrice,
                       "\$${stock.openingPrice.toStringAsFixed(2)}"),
-                  detailCard("Previous Close",
+                  detailCard(TextConstants.previousClose,
                       "\$${stock.previousClose.toStringAsFixed(2)}"),
                   detailCard(
-                      "Market Cap", "\$${stock.marketCap.toStringAsFixed(2)}B"),
-                  detailCard("ROE", "${stock.roe.toStringAsFixed(2)}%"),
+                      TextConstants.marketCap, "\$${stock.marketCap.toStringAsFixed(2)}B"),
+                  detailCard(TextConstants.roe, "${stock.roe.toStringAsFixed(2)}%"),
                   detailCard(
-                      "Book Value", "\$${stock.bookValue.toStringAsFixed(2)}"),
+                      TextConstants.bookValue, "\$${stock.bookValue.toStringAsFixed(2)}"),
                   detailCard(
-                      "Face Value", "\$${stock.faceValue.toStringAsFixed(2)}"),
+                      TextConstants.faceValue, "\$${stock.faceValue.toStringAsFixed(2)}"),
                 ],
               ),
             ),
@@ -121,9 +123,9 @@ class DetailScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                   ),
                 ),
-                label: const Text(
-                  "Buy Now",
-                  style: TextStyle(
+                label: Text(
+                  TextConstants.buyNow,
+                  style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
                       color: Colors.white),

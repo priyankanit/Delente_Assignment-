@@ -15,8 +15,8 @@ class PaymentScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Map<String, dynamic> args = Get.arguments ?? {};
-    final bool isSuccess = args['isSuccess'] ?? false;
-    final String message = args['message'] ?? 'No message provided';
+    final bool isSuccess = args[TextConstants.isSuccess] ?? false;
+    final String message = args[TextConstants.message] ?? TextConstants.noMsgProvided;
 
     return Scaffold(
       appBar: AppBar(
@@ -30,7 +30,7 @@ class PaymentScreen extends StatelessWidget {
           ),
         ),
         iconTheme: IconThemeData(
-          color: Theme.of(context).colorScheme.inversePrimary, // Dynamic color
+          color: Theme.of(context).colorScheme.inversePrimary,
         ),
       ),
       body: Center(
