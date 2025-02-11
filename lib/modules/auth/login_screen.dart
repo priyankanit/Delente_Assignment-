@@ -40,8 +40,7 @@ class LoginScreen extends StatelessWidget {
                 onTap: () async {
                   final user = await AuthService().signInWithFacebook();
                   if (user != null) {
-                    Get.to('/userInfoScreen',
-                        transition: Transition.rightToLeftWithFade);
+                    Get.toNamed(RoutesName.userInfo, arguments: user);
                   } else {
                     Get.snackbar(
                       TextConstants.cancelled,
